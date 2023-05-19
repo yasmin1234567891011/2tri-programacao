@@ -10,3 +10,21 @@ h1{
     background-color:rgb(142, 211, 207);
 }
 
+.cabecalho-menu {
+    background-color: var(--fundo-menu);
+}
+
+.cabecalho-titulo {
+    text-align: center;
+}
+ 
+.cabecalho-menu-item{
+    display: block;
+    padding: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color: aqua;
+    text-align: center;
+    border-top: 1px solid;
+}
+
