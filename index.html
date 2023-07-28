@@ -6,18 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <title>gureski programgramation </title>
+    <title>Gureski programagramation </title>
 </head>
 <body>
 <header class="cabecalho">
-    <h1 class="cabecalho-titulo"> gureski </h1>
-    <img class="fror" src="fror.jpg" alt="">
+    <h1 class="cabecalho-titulo"> Gureski </h1>
+    
+    <span id="burguer" class="material-symbols-outlined"
+onclick="clickMenu()">Menu</span>
+<nav id="menu" class="cabecalho-menu">
+
+<script>
+
+function clickMenu() {
+if (menu.style.display == 'block') {
+menu.style.display = 'none';
+} else {
+menu.style.display = 'block';
+}
+}
+</script>
     <nav class="cabecalho-menu">
         <ul>
             <li> <a class="cabecalho-menu-item"href="#"> Disciplina</a></li>
             <li> <a class="cabecalho-menu-item"href="#"> Professores</a></li>
             <li> <a class="cabecalho-menu-item"href="#"> Turmas</a></li>
         </ul>
+        <img class="fror" src="fror.jpg" alt="">
     </nav>
 </header>
 </body>

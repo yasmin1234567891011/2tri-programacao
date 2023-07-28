@@ -34,5 +34,18 @@ body {
 }
 
 .fror {
-    width: 1000px;
+    width: 750px;
+}
+
+#burguer {
+    background-color: rgb(71, 240, 255);
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    }
+
+    #menu {
+    display: none;
+   
 }
